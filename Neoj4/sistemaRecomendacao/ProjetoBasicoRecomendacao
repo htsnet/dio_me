@@ -1,0 +1,13 @@
+
+c:\Users\hamil\Dropbox\Estudos\Neo4j\cursoDio\logoBootccamp.png
+
+c:\Users\hamil\Dropbox\Estudos\Neo4j\cursoDio\desafioStreaming.png
+
+## Estrutura criada através do site arrows.app
+
+c:\Users\hamil\Dropbox\Estudos\Neo4j\cursoDio\estruturaStreaming.png
+
+## Estrutura do comando Cypher com CREATE
+
+CREATE ({nome: "", desde: "", sexo: "", idade: ""})-[:ASSISTIU {data: "", nota: ""}]->({nome: "", lancamento: ""})-[:_RELATED]->({tipo: ""})
+
