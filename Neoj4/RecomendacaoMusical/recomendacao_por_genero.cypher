@@ -1,4 +1,5 @@
-MATCH (u:User {id: $userId})-[:LISTENED]->(t:Track)-[:IN_GENRE]->(g:Genre)
+With 13 as userId
+MATCH (u:User {id: userId})-[:LISTENED]->(t:Track)-[:IN_GENRE]->(g:Genre)
 WITH u, g, count(*) AS genreCount
 ORDER BY genreCount DESC
 LIMIT 3

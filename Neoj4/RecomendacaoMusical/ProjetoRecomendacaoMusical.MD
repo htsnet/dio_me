@@ -16,11 +16,15 @@ CREATE (User {id: "", name: "", email: ""})-[:LISTENED {`count: integer`: "", `l
 
 [text](filtragem_similaridade.cypher) --> cypher
 
+![alt text](image.png)
+
 ## Recomendação baseada em gêneros favoritos do usuário
 
 "Músicas de gêneros que você mais ouve, mas ainda não conhece."
 
 [text](recomendacao_por_genero.cypher) --> cypher
+
+![alt text](image-2.png)
 
 ## Recomendação por afinidade com artistas que você
 
@@ -28,8 +32,12 @@ CREATE (User {id: "", name: "", email: ""})-[:LISTENED {`count: integer`: "", `l
 
 [text](recomendacao_por_artista.cypher)
 
+![alt text](image-1.png)
+
 ## Descoberta de músicas por artistas similares
 
 "Músicas de artistas que tocam os mesmos gêneros que seus artistas favoritos."
 
 [text](descoberta_similaridade_artistas.cypher)
+
+![alt text](image-3.png)
