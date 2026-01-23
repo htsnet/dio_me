@@ -16,7 +16,7 @@ CREATE (User {id: "", name: "", email: ""})-[:LISTENED {`count: integer`: "", `l
 
 [text](filtragem_similaridade.cypher) --> cypher
 
-![alt text](image.png)
+![alt text](image-4.png)
 
 ## Recomendação baseada em gêneros favoritos do usuário
 
@@ -24,7 +24,7 @@ CREATE (User {id: "", name: "", email: ""})-[:LISTENED {`count: integer`: "", `l
 
 [text](recomendacao_por_genero.cypher) --> cypher
 
-![alt text](image-2.png)
+![alt text](image-5.png)
 
 ## Recomendação por afinidade com artistas que você
 
